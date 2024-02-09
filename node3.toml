@@ -1,0 +1,8 @@
+[service.rabbitmq]
+  ha-mode = "exactly"
+  ha-params = 2
+  ha-sync-mode = "automatic"
+
+[rabbitmq.management]
+  listener.port = 15673
+  listener.ssl = false
